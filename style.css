@@ -1,0 +1,54 @@
+body{
+  background-color: #333;
+  color:#fff;
+  text-wrap:wrap;
+}
+.rckaaa , .srsaaa , .ppraaa{
+  width: 7.5dvh;
+  height: 7.5dvh;
+
+
+  
+}
+
+h1{
+  font-size: 3dvh;
+  margin-top: 0;
+}
+
+header{
+ 
+  text-align: center;
+}
+main{
+  text-align: center;
+}
+.rock, .scissors, .paper{
+  border-radius: 50%;
+  border: 2px;
+  width: 15dvw;
+  height:15dvw;
+}
+button
+{
+  border-radius: 50%;
+  border-color: black;
+  background-color: rgb(47, 59, 59);
+  
+}
+
+.play{
+  width:75px;
+}
+
+#wl{
+  font-size: 3dvh;
+  margin-top: 5px;
+}
+.des{
+  font-size: 2.5dvh;
+}
+
+.reset{
+  font-size: 2.5dvh;
+}

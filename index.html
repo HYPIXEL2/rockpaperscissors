@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>
+    Rock Paper Scissors
+  </title>
+  <link rel="icon" href="rock-emoji.png">
+
+</head>
+<body>
+  <header>
+    <img class="rckaaa" src="rock-emoji.png" alt="Rock Image">
+    <img class="ppraaa" src="paper-emoji.png" alt="Rock Image">
+    <img class="srsaaa" src="scissors-emoji.png" alt="Rock Image">
+    <h1>
+      <br>
+      ROCK ! PAPER ! SCISSORS !
+    </h1>
+  </header>
+
+  <main>
+
+    <button class="btnrck" id="rock" onclick="handleButtonClick('rock')">
+      <img class="rock" src="rock-emoji.png" alt="Rock">
+    </button>
+
+    <button class="btnppr"  >
+      <img class="paper" src="paper-emoji.png" alt="Rock" onclick="handleButtonClick('paper')">
+    </button>
+
+    <button class="btnsrs"  >
+      <img class="scissors" src="scissors-emoji.png" alt="Rock" onclick="handleButtonClick('scissors')">
+    </button>
+    <h2 id="wl">
+      Play To Win
+    </h2>
+    <p class="des" >You: - -  - - :Bot</p>
+    <img class="play" id="player" src="nothing.png" alt="error">
+    <img class="play" id="computer" src="nothing.png" alt="error">
+    <p id="score" class="des" >Played:0 , Won:0 , Lost:0 , Tie:0</p>
+
+    <button class="reset" onclick="handleButtonClick('reset')">
+      RESET
+    </button>
+
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>
